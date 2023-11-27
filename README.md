@@ -3,6 +3,6 @@
 [![Modrinth](https://img.shields.io/modrinth/dt/nvidium?logo=modrinth)](https://modrinth.com/mod/nvidium)
 
 Revidium is a fork of Nvidium, an alternate rendering backing for sodium. It uses cutting edge nvidia features to render huge amounts of
-terrain geometry at very playable framerates. The difference is Nvidirubidium is for embeddium (Forge) to be used with Sinytra Connector.
+terrain geometry at very playable framerates. The difference is Revidium is for embeddium (Forge) to be used with Sinytra Connector.
 
-### Requires embeddium and an Nvidia GTX 1600 series or newer to run (turing+ architecture)
+### Requires Embeddium and an Nvidia GTX 1600 series or newer to run (Turing+ architecture)
