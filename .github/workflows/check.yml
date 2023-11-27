@@ -33,4 +33,4 @@ jobs:
         with:
           if-no-files-found: error
           path: build/libs/
-          name: Nvidium .jar file
+          name: Revidium.jar file
