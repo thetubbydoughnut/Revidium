@@ -2,10 +2,11 @@
   "schemaVersion": 1,
   "id": "nvidium",
   "version": "${version}",
-  "name": "Nvidium",
-  "description": "Replacement rendering engine for sodium",
+  "name": "Revidium",
+  "description": "Replacement rendering engine for Embeddium.",
   "authors": [
-    "Cortex"
+    "Cortex",
+    "Matthew_MBG"
   ],
   "contact": {},
   "license": "LGPL-3.0",
