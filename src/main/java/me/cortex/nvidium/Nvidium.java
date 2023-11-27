@@ -45,7 +45,7 @@ public class Nvidium {
         if (IS_COMPATIBLE) {
             LOGGER.info("All capabilities met");
         } else {
-            LOGGER.warn("Not all requirements met, disabling nvidium");
+            LOGGER.warn("Not all requirements met, disabling Revidium");
         }
         if (IS_COMPATIBLE && Util.getOperatingSystem() == Util.OperatingSystem.LINUX) {
             LOGGER.warn("Linux currently uses fallback terrain buffer due to driver inconsistencies, expect increase vram usage");
@@ -53,7 +53,7 @@ public class Nvidium {
         }
 
         if (IS_COMPATIBLE) {
-            LOGGER.info("Enabling Nvidium");
+            LOGGER.info("Enabling Revidium");
         }
         IS_ENABLED = IS_COMPATIBLE;
     }
