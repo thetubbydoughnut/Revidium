@@ -40,6 +40,9 @@ repositories {
             includeGroup "maven.modrinth"
         }
     }
+        maven {
+        url "https://maven.blamejared.com"
+    }
 }
 
 dependencies {
@@ -52,6 +55,7 @@ dependencies {
     modImplementation(fabricApi.module("fabric-rendering-fluids-v1", project.fabric_version))
     modImplementation(fabricApi.module("fabric-resource-loader-v0", project.fabric_version))
     modImplementation("net.fabricmc.fabric-api:fabric-rendering-data-attachment-v1:0.3.38+73761d2e9a")
+    modImplementation("org.embeddedt:embeddium-1.20.1:0.2.11-git.23aedfb+mc1.20.1")
     //modImplementation("net.fabricmc.fabric-api:fabric-api:${project.fabric_version}")
 
     modImplementation "maven.modrinth:sodium:mc1.20.2-0.5.3"
